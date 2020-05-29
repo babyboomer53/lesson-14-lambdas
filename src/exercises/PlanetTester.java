@@ -21,18 +21,6 @@ class Planet implements Comparable<Planet> {
 	}
 
 	@Override
-	public int compareTo(Planet planet) {
-		double difference = this.getVolume() - planet.getVolume();
-		if (difference > 0) {
-			return 1;
-		} else if (difference < 0) {
-			return -1;
-		} else {
-			return 0;
-		}
-	}
-
-	@Override
 	public String toString() {
 		return String.format(
 				"%nName: %s%nDistance from sun (in millions of kilometers): %d%nVolume relative to earth: %.2f%nNumber of satellites (moons): %d%n",
