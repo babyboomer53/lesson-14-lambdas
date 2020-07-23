@@ -1,5 +1,7 @@
 package exercises;
 
+// I'm just making an arbitrary change so that I can test the  GitHub integration.
+
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
